@@ -1,0 +1,23 @@
+﻿生成启动时间为 2015/5/22 8:47:01。
+     1>项目“D:\TankWar\TankWar\TankWar.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\TankWar.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Game.cpp
+         Game.cpp
+     1>Game.cpp(67): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\TankWar\x64\Debug\TankWar.exe" /INCREMENTAL /NOLOGO opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_ml248d.lib opencv_nonfree248d.lib opencv_objdetect248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_videostab248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\TankWar\x64\Debug\TankWar.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\TankWar\x64\Debug\TankWar.lib" /MACHINE:X64 x64\Debug\Base.obj
+         x64\Debug\Fire.obj
+         x64\Debug\Game.obj
+         x64\Debug\MyTank.obj
+         x64\Debug\Plane.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\Tank.obj
+         x64\Debug\TankWar.obj
+         x64\Debug\Tool.obj
+         x64\Debug\Wall.obj
+         TankWar.vcxproj -> D:\TankWar\x64\Debug\TankWar.exe
+     1>已完成生成项目“D:\TankWar\TankWar\TankWar.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.84
